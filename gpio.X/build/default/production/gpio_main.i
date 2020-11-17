@@ -7,7 +7,7 @@
 # 1 "C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "gpio_main.c" 2
-# 20 "gpio_main.c"
+# 17 "gpio_main.c"
 # 1 "C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\xc.h" 1 3
 # 18 "C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -5624,7 +5624,7 @@ extern __attribute__((nonreentrant)) void _delaywdt(unsigned long);
 #pragma intrinsic(_delay3)
 extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 33 "C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\xc.h" 2 3
-# 20 "gpio_main.c" 2
+# 17 "gpio_main.c" 2
 
 
 # 1 "./fuses.h" 1
@@ -5684,9 +5684,8 @@ extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 
 
 #pragma config EBTRB = OFF
-# 22 "gpio_main.c" 2
-
-
+# 19 "gpio_main.c" 2
+# 38 "gpio_main.c"
 int main(void) {
     OSCCON=0x72;
 
@@ -5699,6 +5698,7 @@ int main(void) {
     TRISBbits.TRISB6 = 1;
     TRISBbits.TRISB5 = 1;
     TRISBbits.TRISB4 = 1;
+
     while (1) {
         if(!PORTBbits.RB4){LATDbits.LATD4=1;}else{LATDbits.LATD4=0;}
         if(!PORTBbits.RB5){LATDbits.LATD5=1;}else{LATDbits.LATD5=0;}

@@ -27,7 +27,7 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"24 F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
+"38 F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
 [v _main main `(i  1 e 2 0 ]
 [s S74 . 1 `uc 1 RB0 1 0 :1:0 
 `uc 1 RB1 1 0 :1:1 
@@ -108,8 +108,8 @@
 [v _TRISDbits TRISDbits `VES43  1 e 1 @3989 ]
 "7986
 [v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
-"24 F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
+"38 F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"43
+"58
 } 0

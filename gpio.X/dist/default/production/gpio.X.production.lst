@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.31 build 20201012212115 
-                                                                                               Tue Nov 17 11:28:10 2020
+                                                                                               Tue Nov 17 12:55:43 2020
 
 Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1 
      1                           	processor	18F4550
@@ -90,7 +90,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
     76 ;;
     77 ;; *************** function _main *****************
     78 ;; Defined at:
-    79 ;;		line 24 in file "gpio_main.c"
+    79 ;;		line 38 in file "gpio_main.c"
     80 ;; Parameters:    Size  Location     Type
     81 ;;		None
     82 ;; Auto vars:     Size  Location     Type
@@ -122,36 +122,36 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    108  007F8C                     _main:
    109                           	callstack 31
    110  007F8C                     
-   111                           ;gpio_main.c: 25:     OSCCON=0x72;
+   111                           ;gpio_main.c: 39:     OSCCON=0x72;
    112  007F8C  0E72               	movlw	114
    113  007F8E  6ED3               	movwf	211,c	;volatile
    114  007F90                     
-   115                           ;gpio_main.c: 27:     TRISDbits.TRISD7 = 0;
+   115                           ;gpio_main.c: 41:     TRISDbits.TRISD7 = 0;
    116  007F90  9E95               	bcf	149,7,c	;volatile
    117  007F92                     
-   118                           ;gpio_main.c: 28:     TRISDbits.TRISD6 = 0;
+   118                           ;gpio_main.c: 42:     TRISDbits.TRISD6 = 0;
    119  007F92  9C95               	bcf	149,6,c	;volatile
    120  007F94                     
-   121                           ;gpio_main.c: 29:     TRISDbits.TRISD5 = 0;
+   121                           ;gpio_main.c: 43:     TRISDbits.TRISD5 = 0;
    122  007F94  9A95               	bcf	149,5,c	;volatile
    123  007F96                     
-   124                           ;gpio_main.c: 30:     TRISDbits.TRISD4 = 0;
+   124                           ;gpio_main.c: 44:     TRISDbits.TRISD4 = 0;
    125  007F96  9895               	bcf	149,4,c	;volatile
    126  007F98                     
-   127                           ;gpio_main.c: 32:     TRISBbits.TRISB7 = 1;
+   127                           ;gpio_main.c: 46:     TRISBbits.TRISB7 = 1;
    128  007F98  8E93               	bsf	147,7,c	;volatile
    129  007F9A                     
-   130                           ;gpio_main.c: 33:     TRISBbits.TRISB6 = 1;
+   130                           ;gpio_main.c: 47:     TRISBbits.TRISB6 = 1;
    131  007F9A  8C93               	bsf	147,6,c	;volatile
    132  007F9C                     
-   133                           ;gpio_main.c: 34:     TRISBbits.TRISB5 = 1;
+   133                           ;gpio_main.c: 48:     TRISBbits.TRISB5 = 1;
    134  007F9C  8A93               	bsf	147,5,c	;volatile
    135  007F9E                     
-   136                           ;gpio_main.c: 35:     TRISBbits.TRISB4 = 1;
+   136                           ;gpio_main.c: 49:     TRISBbits.TRISB4 = 1;
    137  007F9E  8893               	bsf	147,4,c	;volatile
    138  007FA0                     l720:
    139                           
-   140                           ;gpio_main.c: 37:         if(!PORTBbits.RB4){LATDbits.LATD4=1;}else{LATDbits.LATD4=0;}
+   140                           ;gpio_main.c: 52:         if(!PORTBbits.RB4){LATDbits.LATD4=1;}else{LATDbits.LATD4=0;}
    141  007FA0  B881               	btfsc	129,4,c	;volatile
    142  007FA2  EFD5  F03F         	goto	u11
    143  007FA6  EFD7  F03F         	goto	u10
@@ -164,7 +164,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    150  007FB4  988C               	bcf	140,4,c	;volatile
    151  007FB6                     l17:
    152                           
-   153                           ;gpio_main.c: 38:         if(!PORTBbits.RB5){LATDbits.LATD5=1;}else{LATDbits.LATD5=0;}
+   153                           ;gpio_main.c: 53:         if(!PORTBbits.RB5){LATDbits.LATD5=1;}else{LATDbits.LATD5=0;}
    154  007FB6  BA81               	btfsc	129,5,c	;volatile
    155  007FB8  EFE0  F03F         	goto	u21
    156  007FBC  EFE2  F03F         	goto	u20
@@ -177,7 +177,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    163  007FCA  9A8C               	bcf	140,5,c	;volatile
    164  007FCC                     l19:
    165                           
-   166                           ;gpio_main.c: 39:         if(!PORTBbits.RB6){LATDbits.LATD6=1;}else{LATDbits.LATD6=0;}
+   166                           ;gpio_main.c: 54:         if(!PORTBbits.RB6){LATDbits.LATD6=1;}else{LATDbits.LATD6=0;}
    167  007FCC  BC81               	btfsc	129,6,c	;volatile
    168  007FCE  EFEB  F03F         	goto	u31
    169  007FD2  EFED  F03F         	goto	u30
@@ -190,7 +190,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    176  007FE0  9C8C               	bcf	140,6,c	;volatile
    177  007FE2                     l21:
    178                           
-   179                           ;gpio_main.c: 40:         if(!PORTBbits.RB7){LATDbits.LATD7=1;}else{LATDbits.LATD7=0;}
+   179                           ;gpio_main.c: 55:         if(!PORTBbits.RB7){LATDbits.LATD7=1;}else{LATDbits.LATD7=0;}
    180  007FE2  BE81               	btfsc	129,7,c	;volatile
    181  007FE4  EFF6  F03F         	goto	u41
    182  007FE8  EFF8  F03F         	goto	u40
@@ -536,7 +536,7 @@ SFR                  0      0       0     200        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V2.31 build 20201012212115 
-Symbol Table                                                                                   Tue Nov 17 11:28:10 2020
+Symbol Table                                                                                   Tue Nov 17 12:55:43 2020
 
                      l20 7FE0                       l21 7FE2                       l22 7FF6  
                      l16 7FB4                       l17 7FB6                       l18 7FCA  

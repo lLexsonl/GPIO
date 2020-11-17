@@ -16,7 +16,7 @@ cinit CODE 0 7F86 7F86 6 1
 idloc IDLOC 5 200000 200000 8 1
 text0 CODE 0 7F8C 7F8C 74 1
 config CONFIG 4 300000 300000 E 1
-$C:\Users\alex2\AppData\Local\Temp\s86k.o
+$C:\Users\alex2\AppData\Local\Temp\sbgg.o
 idloc IDLOC 5 200000 200000 8 1
 init CODE 0 0 0 4 1
 config CONFIG 4 300000 300000 E 1
@@ -58,26 +58,26 @@ MEDIUMCONST 800-7F85 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\gpio.X.production.o
-7F8C text0 CODE >24:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7F8C text0 CODE >25:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7F90 text0 CODE >27:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7F92 text0 CODE >28:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7F94 text0 CODE >29:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7F96 text0 CODE >30:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7F98 text0 CODE >32:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7F9A text0 CODE >33:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7F9C text0 CODE >34:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7F9E text0 CODE >35:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7FA0 text0 CODE >37:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7FB6 text0 CODE >38:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7FCC text0 CODE >39:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7FE2 text0 CODE >40:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\ARQCB\GPIO\gpio.X\gpio_main.c
-7F86 cinit CODE >504:C:\Users\alex2\AppData\Local\Temp\s86k.s
-7F86 cinit CODE >506:C:\Users\alex2\AppData\Local\Temp\s86k.s
-7F86 cinit CODE >509:C:\Users\alex2\AppData\Local\Temp\s86k.s
-7F86 cinit CODE >515:C:\Users\alex2\AppData\Local\Temp\s86k.s
-7F86 cinit CODE >517:C:\Users\alex2\AppData\Local\Temp\s86k.s
-7F88 cinit CODE >518:C:\Users\alex2\AppData\Local\Temp\s86k.s
+7F8C text0 CODE >38:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7F8C text0 CODE >39:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7F90 text0 CODE >41:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7F92 text0 CODE >42:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7F94 text0 CODE >43:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7F96 text0 CODE >44:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7F98 text0 CODE >46:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7F9A text0 CODE >47:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7F9C text0 CODE >48:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7F9E text0 CODE >49:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7FA0 text0 CODE >52:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7FB6 text0 CODE >53:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7FCC text0 CODE >54:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7FE2 text0 CODE >55:F:\2020\ArquitecturaComputacional\Corte3\ProyectosClase\fork\GPIO\gpio.X\gpio_main.c
+7F86 cinit CODE >504:C:\Users\alex2\AppData\Local\Temp\sbgg.s
+7F86 cinit CODE >506:C:\Users\alex2\AppData\Local\Temp\sbgg.s
+7F86 cinit CODE >509:C:\Users\alex2\AppData\Local\Temp\sbgg.s
+7F86 cinit CODE >515:C:\Users\alex2\AppData\Local\Temp\sbgg.s
+7F86 cinit CODE >517:C:\Users\alex2\AppData\Local\Temp\sbgg.s
+7F88 cinit CODE >518:C:\Users\alex2\AppData\Local\Temp\sbgg.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -96,24 +96,24 @@ __Hspace_1 0 0 ABS 0 - dist/default/production\gpio.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\gpio.X.production.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/production\gpio.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\gpio.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\alex2\AppData\Local\Temp\s86k.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\alex2\AppData\Local\Temp\sbgg.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\gpio.X.production.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\gpio.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\alex2\AppData\Local\Temp\s86k.o
+___sp 0 0 STACK 2 stack C:\Users\alex2\AppData\Local\Temp\sbgg.o
 _main 7F8C 0 CODE 0 text0 dist/default/production\gpio.X.production.o
-start 0 0 CODE 0 init C:\Users\alex2\AppData\Local\Temp\s86k.o
+start 0 0 CODE 0 init C:\Users\alex2\AppData\Local\Temp\sbgg.o
 __size_of_main 0 0 ABS 0 - dist/default/production\gpio.X.production.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\gpio.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\alex2\AppData\Local\Temp\s86k.o
-intlevel0 0 0 CODE 0 text C:\Users\alex2\AppData\Local\Temp\s86k.o
-intlevel1 0 0 CODE 0 text C:\Users\alex2\AppData\Local\Temp\s86k.o
-intlevel2 0 0 CODE 0 text C:\Users\alex2\AppData\Local\Temp\s86k.o
-intlevel3 0 0 CODE 0 text C:\Users\alex2\AppData\Local\Temp\s86k.o
+__accesstop 60 0 ABS 0 - C:\Users\alex2\AppData\Local\Temp\sbgg.o
+intlevel0 0 0 CODE 0 text C:\Users\alex2\AppData\Local\Temp\sbgg.o
+intlevel1 0 0 CODE 0 text C:\Users\alex2\AppData\Local\Temp\sbgg.o
+intlevel2 0 0 CODE 0 text C:\Users\alex2\AppData\Local\Temp\sbgg.o
+intlevel3 0 0 CODE 0 text C:\Users\alex2\AppData\Local\Temp\sbgg.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\gpio.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\gpio.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\gpio.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\alex2\AppData\Local\Temp\s86k.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\alex2\AppData\Local\Temp\s86k.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\alex2\AppData\Local\Temp\sbgg.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\alex2\AppData\Local\Temp\sbgg.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\gpio.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\gpio.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\gpio.X.production.o
@@ -144,7 +144,7 @@ __Hstack 0 0 STACK 2 stack dist/default/production\gpio.X.production.o
 __Htext0 0 0 ABS 0 text0 dist/default/production\gpio.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\gpio.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\gpio.X.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\alex2\AppData\Local\Temp\s86k.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\alex2\AppData\Local\Temp\sbgg.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\gpio.X.production.o
 __Hconfig 30000E 0 CONFIG 4 config dist/default/production\gpio.X.production.o
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\gpio.X.production.o
@@ -203,8 +203,8 @@ __Lconfig 0 0 CONFIG 4 config dist/default/production\gpio.X.production.o
 _LATDbits F8C 0 ABS 0 - dist/default/production\gpio.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\gpio.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\gpio.X.production.o
-stackhi 7FF 0 ABS 0 - C:\Users\alex2\AppData\Local\Temp\s86k.o
-stacklo 60 0 ABS 0 - C:\Users\alex2\AppData\Local\Temp\s86k.o
+stackhi 7FF 0 ABS 0 - C:\Users\alex2\AppData\Local\Temp\sbgg.o
+stacklo 60 0 ABS 0 - C:\Users\alex2\AppData\Local\Temp\sbgg.o
 __Lintcode 0 0 CODE 0 intcode dist/default/production\gpio.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\gpio.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\gpio.X.production.o
@@ -222,7 +222,7 @@ __Lrparam 0 0 COMRAM 1 rparam dist/default/production\gpio.X.production.o
 __pcinit 7F86 0 CODE 0 cinit dist/default/production\gpio.X.production.o
 __ptext0 7F8C 0 CODE 0 text0 dist/default/production\gpio.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\gpio.X.production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\alex2\AppData\Local\Temp\s86k.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\alex2\AppData\Local\Temp\sbgg.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\gpio.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\gpio.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\gpio.X.production.o
